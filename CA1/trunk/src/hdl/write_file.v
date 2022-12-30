@@ -5,15 +5,22 @@ module write_file(clk, rst, write_file, file_index, data_in);
     input [9:0] file_index;
     input [24:0] data_in;
 
-    reg [71:0] output_file_name;
+    reg [255:0] output_file_name;
+
+	reg test = 0;
+	integer fd;	
 
     always @(posedge clk) begin
         if (rst) begin
             $fclose(output_file_name);
         end
         else if (write_file) begin 
-            $sformat(output_file_name, "output_%0d.txt", index);
-            $fwrite(output_file_name, "%0b", data_in);
+		test = 1;
+            $sformat(output_file_name, "./file/output_%0d.txt", file_index);
+		fd = $fopen(output_file_name, "a");
+            $fwriteb(fd, data_in);
+		$fwrite(fd, "\n");
+		$fclose(fd);
         end
     end
 

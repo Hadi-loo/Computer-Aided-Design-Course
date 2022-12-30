@@ -10,12 +10,14 @@ module read_file(clk, rst, read_file, file_index, line_index, data_out);
     reg [255:0] input_file_name;
 
     always @(posedge clk) begin
-        if (rst) begin
-            $fclose(input_file_name);
-        end
-        else if (read_file) begin 
-            $sformat(input_file_name, "input_%0d.txt", file_index);
-            $readmemb(input_file_name, data_out);
+        // if (rst) begin
+        //    $fclose(input_file_name);
+        //end
+        //else 
+	if (read_file) begin 
+            $sformat(input_file_name, "./file/input_%0d.txt", file_index);
+            $readmemb(input_file_name, mem);
+	    //$readmemb("input_0.txt", mem);
         end
     end
 

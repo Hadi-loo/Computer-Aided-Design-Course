@@ -18,6 +18,8 @@ module controller(clk, rst, line_index, start, read_file, write_reg, write_file,
 
   reg [2:0] pstate = `idle, nstate;
   reg cnt_inc;
+	
+  reg [5:0] counter;
 
   always @(pstate, start, counter) begin
     {nstate, rst, read_file, write_reg, cnt_inc, write_file, finish} = 9'b0;
@@ -38,8 +40,7 @@ module controller(clk, rst, line_index, start, read_file, write_reg, write_file,
   end
 
   assign line_index = counter;
-  // 6-BIT counter
-  reg [5:0] counter;
+  
   always @(posedge clk) begin
     if (rst) begin
       counter <= 0;
