@@ -1,0 +1,463 @@
+# Compile of controller.v failed with 17 errors.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v failed with 8 errors.
+# Compile of parity_datapath.v failed with 5 errors.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 3 failed with 30 errors.
+# Compile of parity_datapath.v failed with 3 errors.
+# Compile of parity_datapath.v failed with 2 errors.
+clear
+# invalid command name "clear"
+# Compile of controller.v failed with 17 errors.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v failed with 8 errors.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 2 failed with 25 errors.
+# Compile of parity_controller.v failed with 6 errors.
+# Compile of parity_controller.v was successful.
+# Compile of controller.v failed with 17 errors.
+# Compile of controller.v failed with 4 errors.
+# Compile of controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.main_TB
+# vsim work.main_TB 
+# Start time: 18:56:20 on Jan 02,2023
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'parity_out'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PDP File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v Line: 15
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cal_finish'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v Line: 20
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'prev'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cur'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'next'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'prev'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cur'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'next'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cnt'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/CU/COUNTER64 File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v Line: 29
+# Error loading design
+# End time: 18:56:21 on Jan 02,2023, Elapsed time: 0:00:01
+# Errors: 9, Warnings: 14
+vsim work.main_TB
+# vsim work.main_TB 
+# Start time: 18:59:17 on Jan 02,2023
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'parity_out'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PDP File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v Line: 15
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cal_finish'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v Line: 20
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'prev'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cur'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'next'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'prev'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cur'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'next'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cnt'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/CU/COUNTER64 File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v Line: 29
+# Error loading design
+# End time: 18:59:17 on Jan 02,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 1
+vsim work.main_TB
+# vsim work.main_TB 
+# Start time: 19:01:17 on Jan 02,2023
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'parity_out'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PDP File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v Line: 15
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cal_finish'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v Line: 20
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'prev'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cur'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'next'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'prev'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cur'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'next'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cnt'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/CU/COUNTER64 File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v Line: 29
+# Error loading design
+# End time: 19:01:19 on Jan 02,2023, Elapsed time: 0:00:02
+# Errors: 9, Warnings: 1
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.main_TB
+# vsim work.main_TB 
+# Start time: 19:05:42 on Jan 02,2023
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'prev'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cur'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'next'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_x File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 26
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'prev'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cur'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'next'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/DP/PARITY/PC/counter_y File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cnt'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/CU/COUNTER64 File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v Line: 29
+# Error loading design
+# End time: 19:05:43 on Jan 02,2023, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 2
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.main_TB
+# vsim work.main_TB 
+# Start time: 19:06:34 on Jan 02,2023
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'cnt'.
+#    Time: 0 ns  Iteration: 0  Instance: /main_TB/UUT/CU/COUNTER64 File: G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v Line: 29
+# Error loading design
+# End time: 19:06:35 on Jan 02,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.main_TB
+# vsim work.main_TB 
+# Start time: 19:08:54 on Jan 02,2023
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+run
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+run
+restart
+vsim work.main_TB
+# End time: 19:22:13 on Jan 02,2023, Elapsed time: 0:13:19
+# Errors: 0, Warnings: 1
+# vsim work.main_TB 
+# Start time: 19:22:13 on Jan 02,2023
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+run
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+add wave -position end  sim:/main_TB/start
+add wave -position end  sim:/main_TB/finish
+add wave -position 0  sim:/main_TB/clk
+add wave -position 1  sim:/main_TB/rst
+add wave -position end  sim:/main_TB/file_index
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+run
+add wave -position 4  sim:/main_TB/UUT/line_index
+restart
+run
+restart
+run
+restart
+restart
+run
+add wave -position end  sim:/main_TB/UUT/DP/WF/write_file
+add wave -position end  sim:/main_TB/UUT/DP/WF/output_file_name
+add wave -position end  sim:/main_TB/UUT/DP/WF/data_in
+restart
+run
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v failed with 1 errors.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+run
+restart
+run
+restart
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+add wave -position end  sim:/main_TB/UUT/CU/pstate
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/cur_page
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/prev_page
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/parity_out
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/x_prev
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/x_cur
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/x_next
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/y_prev
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/y_cur
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/y_next
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+run
+restart
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/PDP/col1
+add wave -position end  sim:/main_TB/UUT/DP/PARITY/PDP/col2
+run

@@ -1,0 +1,78 @@
+{G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module parity
+
+Top level modules:
+	parity
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module parity_controller
+
+Top level modules:
+	parity_controller
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_datapath.v} {1 {vlog -work work -stats=none {G:\Uni\term 5\Computer-Aided Design of Digital Systems\Midterm\mdlsm\parity_datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module parity_datapath
+
+Top level modules:
+	parity_datapath
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter64.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter64.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter64
+
+Top level modules:
+	counter64
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/write_to_file.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/write_to_file.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module write_file
+
+Top level modules:
+	write_file
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter5.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter5
+
+Top level modules:
+	counter5
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/main.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/main.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module main
+
+Top level modules:
+	main
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/reg25.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/reg25.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg25
+
+Top level modules:
+	reg25
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/read_from_file.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/read_from_file.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module read_from_file
+
+Top level modules:
+	read_from_file
+
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/datapath.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}

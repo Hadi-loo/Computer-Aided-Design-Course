@@ -10,7 +10,7 @@ module testbench();
 
     always #5 clk = ~clk;
     initial begin 
-        for (file_index = 0; file_index < 3; file_index = file_index + 1) begin
+        for (file_index = 0; file_index < 7; file_index = file_index + 1) begin
             start = 1;
             #20;
             start = 0;

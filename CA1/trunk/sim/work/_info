@@ -10,6 +10,7 @@ z2
 cModel Technology
 Z0 dG:/Uni/term 5/Computer-Aided Design of Digital Systems/Projects/CA1/trunk/sim
 vcontroller
+!s10a 1672426630
 Z1 !s110 1672431750
 !i10b 1
 !s100 8J?iePGO_<i1n:jOQHF9]1
@@ -34,6 +35,7 @@ Z6 o+acc -source
 Z7 !s92 +acc -source +define+SIM
 Z8 tCvgOpt 0
 vdatapath
+!s10a 1672479868
 R1
 !i10b 1
 !s100 TYe:i@_hEbYeA7k4HdZ>z2
@@ -58,7 +60,8 @@ R6
 R7
 R8
 vmain
-Z9 !s110 1672431751
+!s10a 1672420747
+!s110 1672431751
 !i10b 1
 !s100 f`M4ZUIG>SkAOi2lWzdm91
 R2
@@ -82,6 +85,7 @@ R6
 R7
 R8
 vpermutaion
+!s10a 1672379635
 R1
 !i10b 1
 !s100 We``XO99FMNe<kAOfjo2a3
@@ -106,6 +110,7 @@ R6
 R7
 R8
 vread_file
+!s10a 1672430896
 R1
 !i10b 1
 !s100 Ab_h?dRNzbF=OI>0c[Flh0
@@ -155,23 +160,23 @@ R6
 R7
 R8
 vtestbench
-R9
+!s110 1672563889
 !i10b 1
-!s100 5QjhAd;Nbd>9In6@N35X92
+!s100 3]W6Uf0I5DY[5554_5mIi2
 R2
-Il`aMd7BelP0gHINSgRm6m2
+I=DE;EiP^Nl_Ca5nP>W[;;1
 R3
 R0
-w1672428495
+w1672563879
 8./tb/testbench.v
 F./tb/testbench.v
-!i122 7
+!i122 8
 L0 3 19
 R4
 r1
 !s85 0
 31
-!s108 1672431751.000000
+!s108 1672563889.000000
 !s107 ./tb/testbench.v|
 !s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/testbench.v|
 !i113 1
@@ -179,6 +184,7 @@ R6
 !s92 +acc -source +incdir+../src/inc +define+SIM
 R8
 vwrite_file
+!s10a 1672430910
 R1
 !i10b 1
 !s100 OhN<Y_S17FS]QOWA<8JAD2
