@@ -10,7 +10,7 @@ z2
 cModel Technology
 dF:/intelFPGA_lite/20.1
 vcontroller
-Z0 !s110 1672675718
+Z0 !s110 1672678493
 !i10b 1
 !s100 TdXie2jb1Pbib2C4<i`4V3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,18 +20,18 @@ Z3 dG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm
 w1672673924
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v
-!i122 128
+!i122 152
 L0 13 42
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1672675718.000000
+!s108 1672678492.000000
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/controller.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 vcounter5
 R0
 !i10b 1
@@ -43,18 +43,18 @@ R3
 w1672656278
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter5.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter5.v
-!i122 129
+!i122 153
 L0 3 22
 R4
 r1
 !s85 0
 31
-R5
+Z7 !s108 1672678493.000000
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter5.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter5.v|
 !i113 1
+R5
 R6
-R7
 vcounter64
 R0
 !i10b 1
@@ -66,20 +66,20 @@ R3
 w1672671161
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter64.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter64.v
-!i122 130
+!i122 154
 L0 3 14
 R4
 r1
 !s85 0
 31
-R5
+R7
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter64.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter64.v|
 !i113 1
+R5
 R6
-R7
 vdatapath
-Z8 !s110 1672675719
+R0
 !i10b 1
 !s100 >AoE0WIo2IM><RAzRUI?^3
 R1
@@ -89,20 +89,20 @@ R3
 w1672675319
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/datapath.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/datapath.v
-!i122 131
+!i122 155
 L0 3 38
 R4
 r1
 !s85 0
 31
-Z9 !s108 1672675719.000000
+R7
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/datapath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/datapath.v|
 !i113 1
+R5
 R6
-R7
 vmain
-R8
+R0
 !i10b 1
 !s100 =@HK7<L5lCNZ7=@Gh`QVO3
 R1
@@ -112,20 +112,20 @@ R3
 w1672675421
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/main.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/main.v
-!i122 132
+!i122 156
 L0 3 27
 R4
 r1
 !s85 0
 31
-R9
+R7
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/main.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/main.v|
 !i113 1
+R5
 R6
-R7
 vmain_TB
-Z10 !s110 1672675720
+Z8 !s110 1672678494
 !i10b 1
 !s100 Xm=6XfnaUE5;`@99d0[?S0
 R1
@@ -135,21 +135,21 @@ R3
 w1672675716
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/testbench.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/testbench.v
-!i122 138
+!i122 162
 L0 3 25
 R4
 r1
 !s85 0
 31
-Z11 !s108 1672675720.000000
+Z9 !s108 1672678494.000000
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/testbench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/testbench.v|
 !i113 1
+R5
 R6
-R7
 nmain_@t@b
 vparity
-R8
+R0
 !i10b 1
 !s100 CzgNo8^[e3?46Lhz_ObKL1
 R1
@@ -159,18 +159,18 @@ R3
 w1672673728
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v
-!i122 133
+!i122 157
 L0 3 23
 R4
 r1
 !s85 0
 31
-R9
+R7
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity.v|
 !i113 1
+R5
 R6
-R7
 vparity_controller
 R8
 !i10b 1
@@ -182,7 +182,7 @@ R3
 w1672673784
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v
-!i122 134
+!i122 158
 L0 11 44
 R4
 r1
@@ -192,20 +192,20 @@ R9
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/parity_controller.v|
 !i113 1
+R5
 R6
-R7
 vparity_datapath
 R8
 !i10b 1
-!s100 bGT4>aX@B:>j<d_@K[<?f1
+!s100 8`K>12;@2bZNQQPAbcBfz2
 R1
-I<2GO@z8ekHSKGUgneQm1J1
+I6>XW9ffGPh3n0BDBOYka61
 R2
 R3
-w1672673535
+w1672677671
 8G:\Uni\term 5\Computer-Aided Design of Digital Systems\Midterm\mdlsm\parity_datapath.v
 FG:\Uni\term 5\Computer-Aided Design of Digital Systems\Midterm\mdlsm\parity_datapath.v
-!i122 135
+!i122 159
 L0 3 21
 R4
 r1
@@ -215,10 +215,10 @@ R9
 !s107 G:\Uni\term 5\Computer-Aided Design of Digital Systems\Midterm\mdlsm\parity_datapath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:\Uni\term 5\Computer-Aided Design of Digital Systems\Midterm\mdlsm\parity_datapath.v|
 !i113 1
+R5
 R6
-R7
 vread_from_file
-R10
+R8
 !i10b 1
 !s100 G]k6;]YJD5fL8OPMZW:T60
 R1
@@ -228,7 +228,7 @@ R3
 w1672653746
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/read_from_file.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/read_from_file.v
-!i122 136
+!i122 160
 L0 2 20
 R4
 r1
@@ -238,10 +238,10 @@ R9
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/read_from_file.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/read_from_file.v|
 !i113 1
+R5
 R6
-R7
 vreg25
-R10
+R8
 !i10b 1
 !s100 ib7>KCZm8?Ul7A84O878J2
 R1
@@ -251,20 +251,20 @@ R3
 w1672653643
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/reg25.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/reg25.v
-!i122 137
+!i122 161
 L0 2 19
 R4
 r1
 !s85 0
 31
-R11
+R9
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/reg25.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/reg25.v|
 !i113 1
+R5
 R6
-R7
 vwrite_file
-R10
+!s110 1672678495
 !i10b 1
 !s100 NH3:0BP783dI1c@]2lG8@2
 R1
@@ -274,15 +274,15 @@ R3
 w1672653829
 8G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/write_to_file.v
 FG:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/write_to_file.v
-!i122 139
+!i122 163
 L0 2 23
 R4
 r1
 !s85 0
 31
-R11
+R9
 !s107 G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/write_to_file.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/write_to_file.v|
 !i113 1
+R5
 R6
-R7

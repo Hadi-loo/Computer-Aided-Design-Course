@@ -461,3 +461,52 @@ restart
 add wave -position end  sim:/main_TB/UUT/DP/PARITY/PDP/col1
 add wave -position end  sim:/main_TB/UUT/DP/PARITY/PDP/col2
 run
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main_TB
+# Loading work.main
+# Loading work.datapath
+# Loading work.read_from_file
+# Loading work.reg25
+# Loading work.parity
+# Loading work.parity_datapath
+# Loading work.parity_controller
+# Loading work.counter5
+# Loading work.write_file
+# Loading work.controller
+# Loading work.counter64
+run
+restart
+run
+add wave -position 9  sim:/main_TB/UUT/DP/PARITY/PDP/x_prev
+add wave -position 11  sim:/main_TB/UUT/DP/PARITY/PDP/x_next
+restart
+# Compile of controller.v was successful.
+# Compile of counter5.v was successful.
+# Compile of counter64.v was successful.
+# Compile of datapath.v was successful.
+# Compile of main.v was successful.
+# Compile of parity.v was successful.
+# Compile of parity_controller.v was successful.
+# Compile of parity_datapath.v was successful.
+# Compile of read_from_file.v was successful.
+# Compile of reg25.v was successful.
+# Compile of testbench.v was successful.
+# Compile of write_to_file.v was successful.
+# 12 compiles, 0 failed with no errors.
+run
+# End time: 21:02:25 on Jan 02,2023, Elapsed time: 1:40:12
+# Errors: 0, Warnings: 2

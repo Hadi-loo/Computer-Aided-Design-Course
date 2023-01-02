@@ -17,7 +17,7 @@ module parity_datapath (cur_page, prev_page,
     always @(x_prev, x_cur, x_next, y_cur) begin
         col1 = cur_page[x_prev] ^ cur_page[5 + x_prev] ^ cur_page[10 + x_prev] ^ cur_page[15 + x_prev] ^ cur_page[20 + x_prev];
         col2 = prev_page[x_next] ^ prev_page[5 + x_next] ^ prev_page[10 + x_next] ^ prev_page[15 + x_next] ^ prev_page[20 + x_next];
-        parity_out[x_cur*5 + y_cur] = cur_page[x_cur*5 + y_cur] ^ col1 ^ col2;
+        parity_out[x_cur + y_cur*5] = cur_page[x_cur + y_cur*5] ^ col1 ^ col2;
     end
 
 endmodule

@@ -19,6 +19,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	parity_datapath
 
+} {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/testbench.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module main_TB
+
+Top level modules:
+	main_TB
+
 } {} {}} {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter64.v} {1 {vlog -work work -stats=none {G:/Uni/term 5/Computer-Aided Design of Digital Systems/Midterm/mdlsm/counter64.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module counter64
