@@ -11,7 +11,7 @@ module read_from_file(clk, rst, read_file, file_index, line_index, data_out);
 
     always @(posedge clk) begin 
 	    if (read_file) begin    
-            $sformat(input_file_name, "input_%0d.txt", file_index);
+            $sformat(input_file_name, "./file/input_%0d.txt", file_index);
             $readmemb(input_file_name, mem);
         end
     end
