@@ -8,7 +8,7 @@
 `define write 3'b101
 `define done 3'b110
 
-module controller(clk, rst, line_index, start, read_file, write_reg, write_file, finish);
+module permute_controller(clk, rst, line_index, start, read_file, write_reg, write_file, finish);
 
   input clk, start;
 

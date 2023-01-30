@@ -1,12 +1,12 @@
 `timescale 1ns/1ns
 
-module testbench();
+module permute_testbench();
 
     reg clk = 0, start = 0;
     wire finish;
     reg [9:0] file_index;
 
-    main UUT (.clk(clk), .start(start), .finish(finish), .file_index(file_index));
+    permute UUT (.clk(clk), .start(start), .finish(finish), .file_index(file_index));
 
     always #5 clk = ~clk;
     initial begin 
