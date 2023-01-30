@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module datapath_addRC(  clk, rst, 
+module addRC_datapath(  clk, rst, 
                         read_file, write_file, write_reg, 
                         file_index, line_index, 
                         iteration);
@@ -17,21 +17,21 @@ module datapath_addRC(  clk, rst,
     wire [63:0] const;
     wire [24:0] write_in;
 
-    read_from_file RFF(.clk(clk), .rst(rst), 
+    read_from_file addRC_RFF(.clk(clk), .rst(rst), 
                         .read_file(read_file), .file_index(file_index), .line_index(line_index), 
                         .data_out(reg_in));
 
-    reg25 REG25 (.clk(clk), .rst(rst), 
+    reg25 addRC_REG25 (.clk(clk), .rst(rst), 
                 .ld(write_reg), .clr(rst), 
                 .in(reg_in), .out(reg_out));
 
-    consts CONSTS (.iteration(iteration), .const(const));
+    consts addRC_CONSTS (.iteration(iteration), .const(const));
 
     addRC_func ADDRC_FUNC (.clk(clk), .rst(rst), 
                             .line_index(line_index), .page(reg_out), .lane(const), 
                             .page_out(write_in));
 
-    write_file WF (.clk(clk), .rst(rst), 
+    write_file addRC_WF (.clk(clk), .rst(rst), 
                     .write_file(write_file), .file_index(file_index),
                     .data_in(write_in));
 

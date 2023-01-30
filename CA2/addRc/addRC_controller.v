@@ -8,7 +8,7 @@
 `define write_to_file       3'd5
 `define done                3'd6
 
-module controller_addRC(clk, rst, line_index, start, read_file, write_reg, write_file, finish);
+module addRC_controller(clk, rst, line_index, start, read_file, write_reg, write_file, finish);
 
   input clk, start;
 
