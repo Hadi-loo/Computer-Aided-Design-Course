@@ -1,12 +1,12 @@
 `timescale 1ns/1ns
 
-module main_TB();
+module colParity_TB();
 
     reg clk = 0, rst = 1, start = 0;
     wire finish;
     reg [9:0] file_index;
 
-    main UUT (  .clk(clk), .rst(rst), 
+    colParity UUT (  .clk(clk), .rst(rst), 
                 .file_index(file_index), 
                 .start(start), .finish(finish));
 

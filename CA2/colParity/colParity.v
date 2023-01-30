@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module main(clk, rst, file_index, start, finish);
+module colParity(clk, rst, file_index, start, finish);
 
     input clk, rst;
     input [9:0] file_index;
@@ -14,12 +14,12 @@ module main(clk, rst, file_index, start, finish);
     wire cal_start;
     wire cal_finish;
 
-    datapath DP (.clk(clk), .rst(rst), 
+    colParity_datapath colParity_DP (.clk(clk), .rst(rst), 
                 .read_file(read_file), .file_index(file_index), .line_index(line_index), 
                 .write_reg1(write_reg1), .write_reg2(write_reg2), 
                 .cal_start(cal_start), .cal_finish(cal_finish), .write_file(write_file));
 
-    controller CU ( .clk(clk), .rst(rst), 
+    colParity_controller colParity_CU ( .clk(clk), .rst(rst), 
                     .start(start), .read_file(read_file), 
                     .write_reg1(write_reg1), .write_reg2(write_reg2), 
                     .cal_start(cal_start), .cal_finish(cal_finish), 

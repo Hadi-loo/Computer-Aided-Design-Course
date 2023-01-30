@@ -17,7 +17,7 @@ module parity(clk, rst, cal_start, cal_finish, cur_page, prev_page, parity_out);
                         .y_cur(y_cur),
                         .parity_out(parity_out));
     
-    parity_controller PC(.clk(clk), .rst(rst), 
+    parity_controller PCU(.clk(clk), .rst(rst), 
                         .cal_start(cal_start), .cal_finish(cal_finish),
                         .x_prev(x_prev), .x_cur(x_cur), .x_next(x_next),
                         .y_prev(y_prev), .y_cur(y_cur), .y_next(y_next));

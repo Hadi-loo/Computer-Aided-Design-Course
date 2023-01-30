@@ -10,7 +10,7 @@
 `define write_to_file       4'd7
 `define done                4'd8
 
-module controller(clk, rst, start, read_file, write_reg1, write_reg2, cal_start, cal_finish, write_file, line_index, finish);
+module colParity_controller(clk, rst, start, read_file, write_reg1, write_reg2, cal_start, cal_finish, write_file, line_index, finish);
 
     input clk, rst, start;
     input cal_finish;
@@ -26,7 +26,7 @@ module controller(clk, rst, start, read_file, write_reg1, write_reg2, cal_start,
     reg [3:0] pstate = `idle;
     reg [3:0] nstate;
 
-    counter64 COUNTER64 (.clk(clk), .rst(rst), .inc(inc_cnt), .ld(ld_cnt), .cnt(line_index));
+    counter64 colParity_COUNTER64 (.clk(clk), .rst(rst), .inc(inc_cnt), .ld(ld_cnt), .cnt(line_index));
 
     always @(pstate, start, cal_finish, line_index) begin
         {nstate, read_file, ld_cnt, write_reg1, write_reg2, inc_cnt, cal_start, write_file, finish} = 12'b0;
