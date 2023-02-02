@@ -3,7 +3,9 @@
 module encoder_datapath(clk, rst,
                         file_index, iteration,
                         CP_start, CP_finish,
+                        RO_start, RO_finish,
                         PE_start, PE_finish,
+                        RE_start, RE_finish,
                         RC_start, RC_finish);
     
     input clk, rst;
@@ -13,24 +15,27 @@ module encoder_datapath(clk, rst,
     output CP_finish, PE_finish, RC_finish;
 
     // colParity module
-    colParity CP (.clk(clk), .rst(rst), 
-                    .file_index(file_index), .start(CP_start), .finish(CP_finish));
+    colParity CP (  .clk(clk), .rst(rst),  
+                    .start(CP_start), .finish(CP_finish),
+                    .file_index(file_index));
 
-    // here comes rotate module
-
+    // rotate module
+    rotate RO (     .clk(clk), 
+                    .start(RO_start), .finish(RO_finish), 
+                    .file_index(file_index));
 
     // permute module
-    permute PE (.clk(clk), 
-                .start(PE_start), .finish(PE_finish), 
-                .file_index(file_index));
+    permute PE (    .clk(clk), 
+                    .start(PE_start), .finish(PE_finish), 
+                    .file_index(file_index));
     
-    // here comes revaluate module
+    // revaluate module
     
 
     // addRC module
-    addRC RC (  .clk(clk),
-                .start(RC_start), .finish(RC_finish),
-                .file_index(file_index), .iteration(iteration));
+    addRC RC (      .clk(clk),
+                    .start(RC_start), .finish(RC_finish),
+                    .file_index(file_index), .iteration(iteration));
     
 
 endmodule
