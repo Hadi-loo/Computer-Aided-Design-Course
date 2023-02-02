@@ -30,7 +30,9 @@ module encoder_datapath(clk, rst,
                     .file_index(file_index));
     
     // revaluate module
-    
+    revaluateTop RE (   .clk(clk), 
+                        .start(RE_start), .finish(RE_finish), 
+                        .file_index(file_index));
 
     // addRC module
     addRC RC (      .clk(clk),
