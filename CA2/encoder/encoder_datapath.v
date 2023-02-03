@@ -11,8 +11,8 @@ module encoder_datapath(clk, rst,
     input clk, rst;
     input [9:0] file_index;
     input [4:0] iteration;
-    input CP_start, PE_start, RC_start;
-    output CP_finish, PE_finish, RC_finish;
+    input CP_start, RO_start, PE_start, RE_start, RC_start;
+    output CP_finish, RO_finish, PE_finish, RE_finish, RC_finish;
 
     // colParity module
     colParity CP (  .clk(clk), .rst(rst),  

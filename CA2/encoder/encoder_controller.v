@@ -38,10 +38,10 @@ module encoder_controller (clk, rst,
     reg [4:0] counter;
 
     always @(pstate, start, CP_finish, RO_finish, PE_finish, RE_finish, RC_finish, counter) begin
-        {nstate, CP_START, RO_START, PE_START, RE_START, RC_START, finish} = 10'b0;
+        {nstate, CP_start, RO_start, PE_start, RE_start, RC_start, finish} = 10'b0;
         case (pstate)
             `IDLE: begin nstate = (start) ? `INIT : `IDLE; end
-            `INIT: begin nstate = `CP_START; rst = 1'b1; end
+            `INIT: begin nstate = `CP_START; end
             `CP_START: begin nstate = `CP_CAL; CP_start = 1'b1; end
             `CP_CAL: begin nstate = (CP_finish) ? `RO_START : `CP_CAL; end
             `RO_START: begin nstate = `RO_CAL; RO_start = 1'b1; end

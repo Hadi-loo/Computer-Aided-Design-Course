@@ -14,7 +14,7 @@ module revaluateTop_controller (clk, rst, start, read_file, write_file, finish, 
     
     output reg read_file, write_file;
     output reg rst, finish;
-    output revaluate_start;
+    output reg revaluate_start;
 
     reg [2:0] pstate = `idle;
     reg [2:0] nstate;
