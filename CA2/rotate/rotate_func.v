@@ -46,14 +46,17 @@ module rotate_func(page_in, page_out);
     lookUpTable[4][4] = 14;
   end  
 
-  integer shift_val;
+  integer shift_val, index;
   integer i,j,z;
+  reg temp;
   always @(page_in) begin
     for(j=0; j<5; j=j+1) begin
       for (i=0; i<5; i=i+1) begin
         for (z=0; z<64; z=z+1) begin   
           shift_val = lookUpTable[(i+3) % 5][(j+3) % 5];
-          page_out[z * 25 + 5*j + i] = page_in[((z - shift_val) % 64) * 25 + 5*j + i];
+		  temp = page_in[((64 + z - shift_val) % 64) * 25 + (24 - (5*j + i))];
+          page_out[z * 25 + (24 - (5*j + i))] = temp;
+			
         end
       end    
     end    

@@ -4,7 +4,7 @@ module rotate_read_from_file(clk, rst, read_file, file_index, data_out);
     input clk, rst, read_file;
     input [9:0] file_index;
 
-    reg [24:0] mem [63:0];
+    reg [0:24] mem [63:0];
     output [1599:0] data_out;
     reg [255:0] input_file_name;
 
