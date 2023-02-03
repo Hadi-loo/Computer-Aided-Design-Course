@@ -13,7 +13,7 @@ module colParity_write_file(clk, rst, write_file, file_index, data_in);
             $fclose(output_file_name);
         end
         else if (write_file) begin 
-            $sformat(output_file_name, "output_%0d_CPRO.txt", file_index);
+            $sformat(output_file_name, "%0d_CPRO.txt", file_index);
             fd = $fopen(output_file_name, "a");
             $fwriteb(fd, data_in);
             $fwrite(fd, "\n");

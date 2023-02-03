@@ -8,16 +8,16 @@ module permute_read_file(clk, rst, read_file, file_index, line_index, data_out);
     reg [24:0] mem [63:0];
     output [24:0] data_out;
     reg [255:0] input_file_name;
+    reg [255:0] output_file_name;
+    integer fd;
 
     always @(posedge clk) begin
-        // if (rst) begin
-        //    $fclose(input_file_name);
-        //end
-        //else 
-	if (read_file) begin 
-            $sformat(input_file_name, "input_%0d_ROPE.txt", file_index);
+        if (read_file) begin 
+            $sformat(input_file_name, "%0d_ROPE.txt", file_index);
             $readmemb(input_file_name, mem);
-	    //$readmemb("input_0.txt", mem);
+            $sformat(output_file_name, "%0d_PERE.txt", file_index);
+            fd = $fopen(output_file_name, "w");
+            $fclose(fd);
         end
     end
 

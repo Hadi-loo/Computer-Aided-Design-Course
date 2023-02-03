@@ -13,10 +13,10 @@ module revaluate_write_file(clk, rst, write_file, file_index, data_in);
             $fclose(output_file_name);
         end
         else if (write_file) begin 
-            $sformat(output_file_name, "output_%0d.txt", file_index);
+            $sformat(output_file_name, "%0d_RERC.txt", file_index);
             fd = $fopen(output_file_name, "w");
             for (i = 63; i >= 0; i=i-1) begin
-		start_index = i*25+24;
+		        start_index = i*25+24;
                 $fwriteb(fd, data_in[start_index-: 25]);
                 $fwrite(fd, "\n");
             end
