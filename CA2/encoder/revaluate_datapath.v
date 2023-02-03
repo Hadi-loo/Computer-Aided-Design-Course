@@ -18,7 +18,7 @@ module revaluate_datapath (clk, rst, read_file, file_index, line_index, write_re
                 .ld(write_reg), .clr(rst), 
                 .in(reg25_in), .out(reg25_out));
 
-    revaluate_func revaluate_RFUNC (.in(reg25_out), .out(reval_out));
+    revaluate_func revaluate_RFUNC (.p_in(reg25_out), .p_out(reval_out));
 
     revaluate_write_file revaluate_WF (.clk(clk), .rst(rst), 
                         .write_file(write_file), .file_index(file_index),

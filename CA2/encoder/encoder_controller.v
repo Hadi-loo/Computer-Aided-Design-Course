@@ -35,13 +35,14 @@ module encoder_controller (clk, rst,
     reg [3:0] nstate;
 
     reg cnt_inc;
+    reg cnt_rst;
     reg [4:0] counter;
 
     always @(pstate, start, CP_finish, RO_finish, PE_finish, RE_finish, RC_finish, counter) begin
-        {nstate, CP_start, RO_start, PE_start, RE_start, RC_start, finish} = 10'b0;
+        {nstate, CP_start, RO_start, PE_start, RE_start, RC_start, finish, cnt_inc, cnt_rst} = 12'b0;
         case (pstate)
             `IDLE: begin nstate = (start) ? `INIT : `IDLE; end
-            `INIT: begin nstate = `CP_START; end
+            `INIT: begin nstate = `CP_START; cnt_rst = 1'b1; end
             `CP_START: begin nstate = `CP_CAL; CP_start = 1'b1; end
             `CP_CAL: begin nstate = (CP_finish) ? `RO_START : `CP_CAL; end
             `RO_START: begin nstate = `RO_CAL; RO_start = 1'b1; end
@@ -65,7 +66,10 @@ module encoder_controller (clk, rst,
         end
         else begin
             pstate <= nstate;
-            if (cnt_inc) begin
+	    if (cnt_rst) begin
+	        counter <= 5'd0;
+	    end
+            else if (cnt_inc) begin
                 counter <= counter + 1;
             end
         end

@@ -7,7 +7,7 @@ module encoder(clk, rst, start, finish, file_index);
 
     output finish;
 
-    wire [5:0] iteration;
+    wire [4:0] iteration;
     wire CP_start, RO_start, PE_start, RE_start, RC_start;
     wire CP_finish, RO_finish, PE_finish, RE_finish, RC_finish;
  
